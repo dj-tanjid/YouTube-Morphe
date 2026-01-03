@@ -168,10 +168,12 @@ config_update() {
 			fi
 			# Support both .rvp (ReVanced) and .mpp (Morphe) patch files
 			if ! last_patches=$(jq -e -r '[.assets[] | select(.name | endswith("rvp") or endswith("mpp"))] | first | .name' <<<"$last_patches"); then
-				epr "No .rvp or .mpp patch file found for $PATCHES_SRC"
-				continue
-			fi
-			if [ "$last_patches" ]; then
+				epr "No .rvp or .mpp patch file found for $PATCHES_SRC - including in build anyway"
+				# If we can't check, assume it needs updating to ensure it gets built
+				sources["$PATCHES_SRC/$PATCHES_VER"]=1
+				prcfg=true
+				upped+=("$table_name")
+			elif [ "$last_patches" ]; then
 				if ! OP=$(grep "^Patches: ${PATCHES_SRC%%/*}/" build.md | grep "$last_patches"); then
 					sources["$PATCHES_SRC/$PATCHES_VER"]=1
 					prcfg=true
