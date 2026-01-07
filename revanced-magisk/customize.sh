@@ -176,5 +176,5 @@ nohup cmd package compile --reset "$PKG_NAME" >/dev/null 2>&1 &
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
 ui_print "* Done"
-ui_print "  by abhishek babu (github.com/TheBizarreAbhishek)"
+ui_print "  by LovecraftianGodsKiller (github.com/LovecraftianGodsKiller)"
 ui_print " "
