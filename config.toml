@@ -53,7 +53,7 @@ app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "apk"
+build-mode = "both"
 version = "20.51.39"
 excluded-patches = """\
     'Custom branding name for YouTube' \
