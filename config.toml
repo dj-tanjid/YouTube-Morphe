@@ -47,7 +47,7 @@ enabled = true
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
-build-mode = "apk"
+build-mode = "both"
 version = "9.02.50"
 excluded-patches = """\
     'Custom branding name for YouTube Music' \
