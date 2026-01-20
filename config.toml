@@ -18,7 +18,6 @@ excluded-patches = """\
     'Custom branding name for YouTube' \
     'Custom branding icon for YouTube' \
     'Custom branding' \
-    'Seekbar' \
     """
 included-patches = ""
 patches-version = "v1.7.0-dev.3"
