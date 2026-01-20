@@ -1,10 +1,90 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisenable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 # you can use rvmm-config-gen to generate a config
+
+[YouTube-Morphe]
+enabled = true
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
+build-mode = "both"
+arch = "arm64-v8a"
+version = "21.02.32"
+excluded-patches = """\
+    'Custom branding name for YouTube' \
+    'Custom branding icon for YouTube' \
+    'Custom branding' \
+    """
+included-patches = ""
+patches-version = "v1.7.0-dev.3"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music-Morphe]
+enabled = true
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Morphe"
+build-mode = "both"
+arch = "arm64-v8a"
+version = "9.02.50"
+excluded-patches = " 'Custom branding' "
+included-patches = ""
+patches-version = "v1.7.0-dev.3"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+[YouTube-Extended]
+enabled = true
+patches-source = "anddea/revanced-patches"
+#patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+app-name = "YouTube"
+rv-brand = "RVX"
+version = "20.21.37"
+build-mode = "both"
+excluded-patches = " 'Enable debug logging' "
+included-patches = ""
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music-Extended]
+enabled = true
+patches-source = "anddea/revanced-patches"
+#patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+app-name = "YT Music"
+rv-brand = "RVX"
+version = "auto"
+arch = "arm64-v8a"
+build-mode = "both"
+excluded-patches = " 'Enable debug logging' "
+included-patches = " 'Hide player overlay filter' 'Hide overlay filter' "
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+
+[GooglePhotos]
+enabled = true
+arch = "arm64-v8a" 
+patches-version = "dev"
+version = "auto"
+build-mode = "apk"
+included-patches = """\
+    'Enable DCIM folders backup control' \
+    'Remove screenshot restriction' \
+    'Remove screen capture restriction' \
+    """
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 [YouTube]
 enabled = false
@@ -24,74 +104,10 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-[YouTube-Morphe]
-enabled = true
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Morphe"
-build-mode = "both"
-excluded-patches = """\
-    'Custom branding name for YouTube' \
-    'Custom branding icon for YouTube' \
-    """
-arch = "arm64-v8a"
-included-patches = ""
-version = "21.03.34"
-patches-version = "v1.7.0-dev.3"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
-
-[Music-Morphe]
-enabled = true
-patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Morphe"
-build-mode = "both"
-version = "9.02.50"
-excluded-patches = """\
-    'Custom branding name for YouTube Music' \
-    'Custom branding icon for YouTube Music' \
-    """
-arch = "arm64-v8a"
-patches-version = "v1.7.0-dev.3"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-
-[GooglePhotos]
-enabled = false
-build-mode = "both"
-arch = "both"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
-
 [Spotify]
 enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
-
-# https://github.com/j-hc/revanced-magisk-module/issues/554
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-
-[YouTube-Extended]
-enabled = false
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Twitch]
 enabled = false
@@ -117,5 +133,8 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
 
 [IconPackStudio]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+dio]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
