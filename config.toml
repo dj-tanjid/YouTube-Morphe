@@ -37,7 +37,7 @@ excluded-patches = """\
 arch = "arm64-v8a"
 included-patches = ""
 version = "21.03.34"
-patches-version = "v1.7.0-dev.2"
+patches-version = "v1.7.0-dev.3"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -54,7 +54,7 @@ excluded-patches = """\
     'Custom branding icon for YouTube Music' \
     """
 arch = "arm64-v8a"
-patches-version = "v1.7.0-dev.2"
+patches-version = "v1.7.0-dev.3"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
