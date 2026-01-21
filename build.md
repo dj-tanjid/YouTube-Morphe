@@ -1,5 +1,4 @@
-Music-Morphe: 8.30.54  
-YouTube-Morphe: 21.02.35  
+Music-Morphe: 8.10.52  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
@@ -8,6 +7,4 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
   
 CLI: MorpheApp/morphe-cli-1.1.0-all.jar  
 Patches: MorpheApp/patches-1.7.0-dev.5.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.7.0-dev.5)
-
-CLI: MorpheApp/morphe-cli-1.1.0-all.jar    
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.7.0-dev.5)  
