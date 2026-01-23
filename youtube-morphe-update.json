@@ -1,6 +1,6 @@
 {
-  "version": "v21.04.222 (patches dev.3.mpp)",
-  "versionCode": 11,
-  "zipUrl": "https://github.com/dj-tanjid/YouTube-Morphe/releases/download/11/youtube-morphe-morphe-magisk-v21.04.222-arm64-v8a.zip",
+  "version": "v20.26.46 (patches dev.3.mpp)",
+  "versionCode": 12,
+  "zipUrl": "https://github.com/dj-tanjid/YouTube-Morphe/releases/download/12/youtube-morphe-morphe-magisk-v20.26.46-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/dj-tanjid/YouTube-Morphe/update/build.md"
 }
