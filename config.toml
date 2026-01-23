@@ -13,8 +13,8 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
 arch = "arm64-v8a"
-version = "21.03.34"
-#version = "21.02.35"
+version = "21.04.222"
+#version = "21.03.36"
 #version = "20.21.37"
 excluded-patches = """\
     'Custom branding name for YouTube' \
@@ -22,7 +22,7 @@ excluded-patches = """\
     'Custom branding' \
     """
 included-patches = ""
-patches-version = "v1.7.0"
+patches-version = "v1.8.0-dev.3"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -42,7 +42,7 @@ excluded-patches = """\
     'Custom branding' \
     """
 included-patches = ""
-patches-version = "v1.7.0"
+patches-version = "v1.8.0-dev.3"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -79,7 +79,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [GooglePhotos]
-enabled = true
+enabled = false
 arch = "arm64-v8a" 
 patches-version = "dev"
 version = "auto"
