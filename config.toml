@@ -21,7 +21,7 @@ excluded-patches = """\
     'Custom branding' \
     """
 included-patches = ""
-patches-version = "dev"
+#patches-version = "dev"
 #patches-version = "v1.9.0-dev.11"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -42,7 +42,7 @@ excluded-patches = """\
     'Custom branding' \
     """
 included-patches = ""
-patches-version = "dev"
+#patches-version = "dev"
 #patches-version = "v1.9.0-dev.11"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
