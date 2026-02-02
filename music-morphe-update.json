@@ -1,6 +1,6 @@
 {
-  "version": "v9.04.50 (patches dev.2.mpp)",
-  "versionCode": 25,
-  "zipUrl": "https://github.com/dj-tanjid/YouTube-Morphe/releases/download/25/music-morphe-morphe-magisk-v9.04.50-arm64-v8a.zip",
+  "version": "v9.04.50 (patches dev.3.mpp)",
+  "versionCode": 26,
+  "zipUrl": "https://github.com/dj-tanjid/YouTube-Morphe/releases/download/26/music-morphe-morphe-magisk-v9.04.50-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/dj-tanjid/YouTube-Morphe/update/build.md"
 }
