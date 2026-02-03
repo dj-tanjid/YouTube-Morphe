@@ -1,4 +1,3 @@
-GooglePhotos: 7.61.0.860908034  
 Music-Morphe: 9.04.50  
 YouTube-Morphe: 21.05.264  
 
@@ -8,10 +7,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: MorpheApp/morphe-cli-1.2.0-all.jar  
-Patches: MorpheApp/patches-1.11.0-dev.3.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.11.0-dev.3)
+Patches: MorpheApp/patches-1.11.0-dev.4.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.11.0-dev.4)
 
-CLI: MorpheApp/morphe-cli-1.2.0-all.jar  
-CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.50.0-dev.5.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.0-dev.5)  
+CLI: MorpheApp/morphe-cli-1.2.0-all.jar    
