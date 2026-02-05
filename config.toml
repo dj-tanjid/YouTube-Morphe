@@ -22,7 +22,7 @@ excluded-patches = """\
     """
 included-patches = ""
 patches-version = "dev"
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
@@ -42,7 +42,7 @@ excluded-patches = """\
     """
 included-patches = ""
 patches-version = "dev"
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
@@ -90,7 +90,7 @@ included-patches = """\
     'Remove screenshot restriction' \
     'Remove screen capture restriction' \
     """
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
