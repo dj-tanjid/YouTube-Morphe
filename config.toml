@@ -14,7 +14,8 @@ rv-brand = "Morphe"
 build-mode = "both"
 arch = "arm64-v8a"
 #version = "21.04.223"
-version = "21.05.264"
+#version = "21.05.264"
+version = "21.06.251"
 excluded-patches = """\
     'Custom branding name for YouTube' \
     'Custom branding icon for YouTube' \
